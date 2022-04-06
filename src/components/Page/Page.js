@@ -6,7 +6,8 @@ import Card from "./Card/Card";
 import Footer from "../Main/Footer/Footer";
 
 function Page({ item }) {
-  return (
+  
+    return (
     <main className="page-main">
       <Header />
       <Details item={item} />
