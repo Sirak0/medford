@@ -1,0 +1,39 @@
+.demo{
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    z-index: 3;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .close-div{
+        width: 80px;
+        height: 80px;
+        transform: rotate(45deg);
+        cursor: pointer;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        p{
+            color: white;
+            font-size: 35px;
+        }
+    }
+    .popup-div{
+        max-width: 70%;
+        max-height: 70%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        video{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+

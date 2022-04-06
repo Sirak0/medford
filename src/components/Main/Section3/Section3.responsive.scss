@@ -1,0 +1,128 @@
+@media screen and (max-width:700px){
+  .section3{
+    width: 100%;
+    height: auto;
+    align-items: center !important;
+    display: flex;
+    justify-content: center !important;
+  }
+  .slider5 {
+    width: 100% !important;
+    height: auto !important;
+  
+  }
+  .slider-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .image {
+      width: 45%;
+      height: 70%;
+    }
+  }
+.devices-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    :hover {
+      width: 55%;
+      height: 80%;
+      transition: 0.3s;
+    }
+}
+}
+@media screen and (max-width: 600px) {
+    .section3 {
+        width: 100%;
+        height:700px;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 0px;
+      }
+      .slider-head{
+          width: 85%;
+          height: 200px;
+          display: flex;
+          align-items: flex-start;
+          
+         
+      }
+      .slider5 {
+        width: 80%;
+        
+      }
+      .devices-inf1 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        button {
+            display: flex;
+            margin-top: 5px;
+        }
+        p{
+            margin-top:-15 px;
+        }
+    
+      }
+    
+    .slider-item {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        .image {
+          width: 35%;
+          height: 60%;
+        }
+      }
+    .devices-img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        :hover {
+          width: 35%;
+          height: 60%;
+          transition: 0.3s;
+        }
+    }
+   
+}
+
+@media screen and (max-width:450px) {
+  .slick-slider {
+    width: 100% !important;
+    height: 550px !important;
+}
+.section3 {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.slider-head{
+  width: 85%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  
+ 
+}
+}

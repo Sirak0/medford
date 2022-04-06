@@ -1,0 +1,22 @@
+@media screen and (max-width:950px) {
+    .garanty-div{
+        p{
+            font-size: 13px !important;
+        }
+    }
+    .price{
+        font-size: 13px !important;
+        .price-span{
+            font-size: 11px !important;
+        }
+    }
+    h2{
+        font-size: 18px  !important;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .card-section{
+        display: none;
+    }
+}

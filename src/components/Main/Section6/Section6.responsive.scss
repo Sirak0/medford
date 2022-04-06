@@ -1,0 +1,40 @@
+@media screen and (max-width: 700px) {
+  .section6 {
+    align-items: center;
+    height: 1000px;
+  }
+  .section6-content1 {
+    width: 85%;
+
+    h1 {
+      text-align: start;
+    }
+    p {
+      text-align: left;
+    }
+  }
+  .form-div01 {
+    width: 50%;
+  }
+  .line02 {
+    width: 85%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #phone01 {
+    width: 310px;
+    margin-right: 0px;
+  }
+  #city01 {
+    width: 310px;
+  }
+  #name01 {
+    width: 310px;
+  }
+  #email01 {
+    width: 310px;
+  }
+  .book-input01 {
+    width: 310px;
+  }
+}
