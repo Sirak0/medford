@@ -1,257 +1,246 @@
 @media screen and (max-width: 800px) {
-    
-    .popup-cont {
-        .popup-img{
-        display: none;
+  .popup-cont {
+    .popup-img {
+      display: none;
     }
-    .popup-order{
-    width: 100%;
-    
-    justify-content: center;
+    .popup-order {
+      width: 100%;
+
+      justify-content: center;
     }
     .popup-hed {
-        width: 100%;
-        
+      width: 100%;
     }
-    .popup-text{
-        width: 100%;
+    .popup-text {
+      width: 100%;
     }
-    }
-    .form1-div {
-        width: 100%;
-        align-items: center;
-        
-        
-    }
-    .line21{
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-    .line12{
-        align-items: center;
-    }
-    
-    
+  }
+  .form1-div {
+    width: 100%;
+    align-items: center;
+  }
+  .line21 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .line12 {
+    align-items: center;
+  }
 }
 @media screen and (max-width: 650px) {
-    .popup {
-        width: 100%;
-        height: 100%;
-        z-index: 5;
-        display: flex;
-        justify-content: center;
-        display:flex;
-        background-color: black;
-        align-items: center;
-        position:fixed;
-        top: 0;
-        left: 0;
+  .popup {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .popup-cont {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 5;
+    border: 2px black solid;
+    position: relative;
+    display: flex;
+    .popup-img {
+      display: none;
+      img {
+        width: 80%;
+        height: 80%;
       }
-      
-      .popup-cont {
-        width: 100%;
-        height: 100%;
-        background-color: white;
-        z-index: 5;
-        border: 2px black solid;
-        position: relative;
+    }
+    .popup-order {
+      width: 100%;
+      height: 100%;
+      background-color: #14c1de;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .popup-hed {
+        width: 85%;
+        height: 20%;
         display: flex;
-        .popup-img {
-          display: none;
-          img {
-            width: 80%;
-            height: 80%;
-          }
-        }
-        .popup-order {
-          width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        .popup-text {
+          width: 90%;
           height: 100%;
-          background-color: #14c1de;
           display: flex;
-          justify-content: center;
-          align-items: center;
+          justify-content: flex-end;
           flex-direction: column;
-          .popup-hed {
-            width: 85%;
-            height: 20%;
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            .popup-text{
-              width: 90%;
-              height: 100%;
-              display: flex;
-              justify-content: flex-end;
-              flex-direction: column;
-              align-items: flex-start;
-              //  border: 1px green solid;
-              padding: 0;
-              margin:0;
-              margin-top: 40px;
-             
-            }
-            h2 {
-             
-              font-family: Arial, Helvetica, sans-serif;
-              font-style: normal;
-              font-weight: 800;
-              font-size: 21px;
-              line-height: 120%;
-              color: #000000;
-            }
-            span {
-              color: white;
-            }
-            p {
-              margin-top:0;
-              font-family: Arial, Helvetica, sans-serif;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 17px;
-              line-height: 100%;
-              color: #000000;
-            }
-          }
+          align-items: flex-start;
+          //  border: 1px green solid;
+          padding: 0;
+          margin: 0;
+          margin-top: 40px;
         }
-      }
-      .popup-close{
-          width: 13%;
-          height: 3%;
-          // border: 1px red solid;
-          display: flex;
-          align-items:center;
-         justify-content: center;
-         font-size: 30px;
-         color: white;
-         font-weight: 400;
-         cursor: pointer;
-      }
-      .form1-div {
-        width: 100%;
-        height: 70%;
-        display: flex;
-        align-content: flex-start;
-        //border: 1px red solid;
-        justify-content: center;
-        flex-direction: column;
-        
-      
-        label {
-          text-transform: capitalize;
-          text-align: left;
+        h2 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-style: normal;
+          font-weight: 800;
+          font-size: 21px;
+          line-height: 120%;
+          color: #000000;
+        }
+        span {
+          color: white;
+        }
+        p {
+          margin-top: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          font-style: normal;
           font-weight: 500;
-          font-size: small;
-        }
-      }
-      .line21 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        label {
-          text-transform: capitalize;
-          text-align: left;
-          font-weight: 500;
-          font-size: small;
-        }
-      }
-      .line12 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-      
-        label {
-          text-transform: capitalize;
-          text-align: left;
-          font-weight: 500;
-          font-size: small;
-        }
-      }
-      
-      .button-send1 {
-        display: flex;
-        margin-top: 10px;
-        cursor: pointer;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        width: 200px;
-        height: 50px;
-        border-style: none;
-        background: #000000;
-        border-radius: 12px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 17px;
-        color: #ffffff;
-        position: relative;
-        left: 0;
-      
-        &:hover {
-          background-color: #ffffff;
+          font-size: 17px;
+          line-height: 100%;
           color: #000000;
         }
       }
-      #phone1 {
-        width: 310px;
-        height: 30px;
-        margin-top: 10px;
-        margin-right: 0;
-        margin-bottom: 10px;
-        outline: none;
-      }
-      #email1 {
-        width: 310px;
-        height: 30px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        outline: none;
-      }
-      #name1 {
-        width: 310px;
-        height: 30px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        outline: none;
-      }
-      #city1 {
-        width: 310px;
-        height: 30px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        outline: none;
-      }
-      .form-input1 {
-        border: none;
-        background-color: #f3f3fe;
-        border-radius: 5px;
-        padding-left: 10px;
-      
-        &::placeholder {
-          color: #6d728b;
-          font-size: small;
-        }
-      }
-      .b-div {
-        width: 100%;
-        height: auto;
-        display: flex;
-      }
-      .book-input1 {
-        width: 310px;
-        height: 30px;
-        border: none;
-        background-color: #f3f3fe;
-        border-radius: 5px;
-        padding-left: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        color: #6d728b;
-        font-size: small;
-        outline: none;
-        
-      }
-      
+    }
+  }
+  .popup-close {
+    width: 13%;
+    height: 3%;
+    // border: 1px red solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .form1-div {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-content: flex-start;
+    //border: 1px red solid;
+    justify-content: center;
+    flex-direction: column;
+
+    label {
+      text-transform: capitalize;
+      text-align: left;
+      font-weight: 500;
+      font-size: small;
+    }
+  }
+  .line21 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    label {
+      text-transform: capitalize;
+      text-align: left;
+      font-weight: 500;
+      font-size: small;
+    }
+  }
+  .line12 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    label {
+      text-transform: capitalize;
+      text-align: left;
+      font-weight: 500;
+      font-size: small;
+    }
+  }
+
+  .button-send1 {
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    background: #000000;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #ffffff;
+    position: relative;
+    left: 0;
+
+    &:hover {
+      background-color: #ffffff;
+      color: #000000;
+    }
+  }
+  #phone1 {
+    width: 310px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  #email1 {
+    width: 310px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  #name1 {
+    width: 310px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  #city1 {
+    width: 310px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  .form-input1 {
+    border: none;
+    background-color: #f3f3fe;
+    border-radius: 5px;
+    padding-left: 10px;
+
+    &::placeholder {
+      color: #6d728b;
+      font-size: small;
+    }
+  }
+  .b-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .book-input1 {
+    width: 310px;
+    height: 30px;
+    border: none;
+    background-color: #f3f3fe;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #6d728b;
+    font-size: small;
+    outline: none;
+  }
 }

@@ -5,9 +5,14 @@ import Logo from "../../../images/page/header/Favicon.png";
 import Vector from "../../../images/page/header/Vector.svg";
 import { useNavigate } from "react-router-dom";
 function Header() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
-    <div className="header-container"  onClick={() => {navigate("/")}}>
+    <div
+      className="header-container"
+      onClick={() => {
+        navigate("/");
+      }}
+    >
       <div className="logo-div">
         <img className="logo" src={Logo} alt="nkar"></img>
         <img className="vector" src={Vector} alt="nkar"></img>

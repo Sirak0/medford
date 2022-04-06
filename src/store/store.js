@@ -1,27 +1,29 @@
 import { createStore } from "redux";
 import items from "./itemsData";
 
-
-const store = createStore(function (state, action) {
-    if(action.type === "media"){
-        return{
-            ...state,
-            mediaPopup:action.payload
-        }
+const store = createStore(
+  function (state, action) {
+    if (action.type === "media") {
+      return {
+        ...state,
+        mediaPopup: action.payload,
+      };
     }
 
-    if(action.type === "getPopup"){
-        return{
-            ...state,
-            getPopup:action.payload
-        }
+    if (action.type === "getPopup") {
+      return {
+        ...state,
+        getPopup: action.payload,
+      };
     }
-    
-    return state
-}, {
+
+    return state;
+  },
+  {
     items,
-    mediaPopup:"",
-    getPopup:"",
-})
+    mediaPopup: "",
+    getPopup: "",
+  }
+);
 
-export default store
+export default store;

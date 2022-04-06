@@ -7,15 +7,14 @@ import Slider from "react-slick";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
-
 function Section3() {
-  const [devices,setDevices] = useState([])
-  const dispatch = useDispatch()
-  const navigate = useNavigate()
-  const devicesData = useSelector(function(state){
-    return state.items
-  })
-   const settings = {
+  const [devices, setDevices] = useState([]);
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const devicesData = useSelector(function (state) {
+    return state.items;
+  });
+  const settings = {
     infinite: true,
     speed: 200,
     slidesToShow: 4,
@@ -28,8 +27,8 @@ function Section3() {
           slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
-          dots: false
-        }
+          dots: false,
+        },
       },
       {
         breakpoint: 1000,
@@ -37,8 +36,8 @@ function Section3() {
           slidesToShow: 3,
           slidesToScroll: 2,
           initialSlide: 2,
-          arrows: true
-        }
+          arrows: true,
+        },
       },
       {
         breakpoint: 700,
@@ -46,44 +45,43 @@ function Section3() {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
-          arrows: false
-        }
+          arrows: false,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows:false,
-          dots:false
-        }
+          arrows: false,
+          dots: false,
+        },
       },
-      
-    ]
+    ],
+  };
+
+  function take(e, elem) {
+    e.preventDefault();
+    dispatch({
+      type: "getPopup",
+      payload: elem,
+    });
   }
 
-  function take(e,elem){
-     e.preventDefault()
-     dispatch({
-       type:"getPopup",
-       payload:elem
-     })
-  }
-
-  function go(e,elem){
+  function go(e, elem) {
     console.log(e.target.tagName);
-    if(e.target.tagName === "button" || e.target.tagName === "BUTTON"){
+    if (e.target.tagName === "button" || e.target.tagName === "BUTTON") {
       return;
     }
-      window.scrollTo({
-          top:0
-      })
-    navigate(`/page${elem.id}`)
+    window.scrollTo({
+      top: 0,
+    });
+    navigate(`/page${elem.id}`);
   }
 
   useEffect(() => {
-    setDevices(devicesData)
-}, [devicesData])
+    setDevices(devicesData);
+  }, [devicesData]);
 
   return (
     <div className="section3">
@@ -92,17 +90,17 @@ function Section3() {
       </div>
       <Slider {...settings} className="slider5">
         {devices.map((elem, index) => (
-          <div className="slider-item" onClick={(e) => go(e,elem)} key={index}>
+          <div className="slider-item" onClick={(e) => go(e, elem)} key={index}>
             <div className="devices-img">
               <img className="image" src={elem.mainImage} alt="nkar"></img>
             </div>
-            
+
             <div className="devices-inf1">
               <img src={elem.brandLogo}></img>
 
               <h2>{elem.name}</h2>
               <p>{elem.price} ₽/мес. </p>
-              <button onClick={(e) => take(e,elem) }>Получить КП</button>
+              <button onClick={(e) => take(e, elem)}>Получить КП</button>
             </div>
           </div>
         ))}

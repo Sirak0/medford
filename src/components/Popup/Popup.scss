@@ -4,10 +4,10 @@
   z-index: 5;
   display: flex;
   justify-content: center;
-  display:flex;
+  display: flex;
   background-color: black;
   align-items: center;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -44,7 +44,7 @@
       height: 25%;
       display: flex;
       justify-content: space-between;
-      .popup-text{
+      .popup-text {
         width: 85%;
         height: 100%;
         display: flex;
@@ -79,21 +79,21 @@
     }
   }
 }
-.popup-close{
-    width: 15%;
-    height: 39%;
-    // border: 1px red solid;
-    display: flex;
-    align-items: center;
-   justify-content: center;
-   font-size: 30px;
-   color: white;
-   font-weight: 400;
-   cursor: pointer;
+.popup-close {
+  width: 15%;
+  height: 39%;
+  // border: 1px red solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
 }
 .form1-div {
   width: 80%;
-  height:70%;
+  height: 70%;
   display: flex;
   margin-top: 30px;
 
@@ -215,5 +215,4 @@
   color: #6d728b;
   font-size: small;
   outline: none;
-  
 }

@@ -12,14 +12,14 @@ import Footer from "../Footer/Footer";
 function Main() {
   return (
     <div className="main-div">
-      <Header/>
+      <Header />
       <Section1 />
       <Section2 />
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section6/>
-      <Scroll/>
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Scroll />
       <Footer />
     </div>
   );

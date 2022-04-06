@@ -25,8 +25,8 @@ function Footer() {
             <img className="vector" src={Vector} alt="nkar"></img>
           </div>
           <p>
-            © 2009–2021 ООО «Медфорд» официальный дистрибьютор
-             и главный сервисный партнер<br></br> Mindray в России
+            © 2009–2021 ООО «Медфорд» официальный дистрибьютор и главный
+            сервисный партнер<br></br> Mindray в России
           </p>
           <img className="mindray" src={Mindray} alt="nkar"></img>
         </div>
@@ -89,7 +89,7 @@ function Footer() {
               <FontAwesomeIcon className="social-icone" icon={faVk} />
             </a>
             <a target="_blank" href="https://www.instagram.com/">
-            <FontAwesomeIcon className="social-icone" icon={faInstagram} />
+              <FontAwesomeIcon className="social-icone" icon={faInstagram} />
             </a>
           </div>
           <div className="group-company">

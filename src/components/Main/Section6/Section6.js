@@ -16,9 +16,9 @@ function Section6() {
       </div>
       <form className="form-div01">
         <div className="line01">
-        <label htmlFor={"name"}>
+          <label htmlFor={"name"}>
             {" "}
-           Имя <br></br>
+            Имя <br></br>
             <input
               className="form-input01"
               type="text"
@@ -26,11 +26,9 @@ function Section6() {
               id="name01"
             ></input>
           </label>
-          
-        
         </div>
         <div className="line02">
-            <label htmlFor={"phone"}>
+          <label htmlFor={"phone"}>
             {" "}
             Телефон <br></br>
             <input
@@ -50,32 +48,30 @@ function Section6() {
               id="city01"
             ></input>
           </label>
-
-          
         </div>
         <label htmlFor={"email"}>
-            {" "}
-            Электронная почта <br></br>
-            <input
-              className="form-input01"
-              type="email"
-              placeholder="Электронная почта..."
-              id="email01"
-            ></input>
-          </label>
-          <label htmlFor={"budget"}>Бюджетный класс аппарата, который вас интересует<br></br>
-                   <select default="" className="book-input01" name="type" id="budget01">
-                       <option value="">Не выбран</option>
-                       <option value="">Бюджетного класса</option>
-                       <option value="">Среднийнего класса</option>
-                       <option value="">Высокого класса</option>
-                       <option value="">Экспертного класса</option>
-                   </select>
-                   </label>
-          
+          {" "}
+          Электронная почта <br></br>
+          <input
+            className="form-input01"
+            type="email"
+            placeholder="Электронная почта..."
+            id="email01"
+          ></input>
+        </label>
+        <label htmlFor={"budget"}>
+          Бюджетный класс аппарата, который вас интересует<br></br>
+          <select default="" className="book-input01" name="type" id="budget01">
+            <option value="">Не выбран</option>
+            <option value="">Бюджетного класса</option>
+            <option value="">Среднийнего класса</option>
+            <option value="">Высокого класса</option>
+            <option value="">Экспертного класса</option>
+          </select>
+        </label>
+
         <button className="button-send01">Отправить</button>
       </form>
-      
     </div>
   );
 }
